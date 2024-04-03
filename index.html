@@ -2,27 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="src/styles.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><HTml>Login Form in HTML & CSS</HTml></title>
 </head>
 <body>
+    <div class="wrapper">
     <h1>Dont have an account sign up!</h1>
     <form class="form-data">
 <input type="text"
 placeholder="Enter your username"
+class="user-data"
 required />
 <input type="email" 
 placeholder="Enter your email address" 
+class="mail-data"
 required />
 <input type="password" 
 placeholder="Enter your place holder"
+class="pass-data"
 required />
 <input type="password" 
 placeholder="Confirm your password"
+class="conf-data"
 required />
+<input type="submit" value="Submit" />
 <input type="checkbox" id="remember" name="remember" >
 <label for="remember">Remember me</label>
 
     </form>
+</div>
 </body>
 </html>
